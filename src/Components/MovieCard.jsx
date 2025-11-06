@@ -33,7 +33,7 @@ export default function MovieCard({ movie, onFavorite, onOpen, isFavorite }) {
           onClick={onOpen}
           className="flex-1 py-2 border rounded hover:bg-slate-100"
         >
-          Details
+          Details of the Movie
         </button>
         <button
           onClick={onFavorite}
